@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Image from "../assets/image.png";
-import Logo from "../assets/logo.png";
+import Image from "../assets/image copy.png"; 
+import Logo from "../assets/logo copy.png"; 
 import GoogleSvg from "../assets/icons8-google.svg";
 import { FaEye } from "react-icons/fa6";
 import { FaEyeSlash } from "react-icons/fa6";
@@ -22,7 +22,7 @@ const Login = () => {
             <img src={Logo} alt="" />
           </div>
           <div className="login-center">
-            <h2>Welcome back!</h2>
+            <h2>Login Page task 2</h2>
             <p>Please enter your details</p>
             <form>
               <input type="email" placeholder="Email" />
@@ -36,7 +36,7 @@ const Login = () => {
                 <div className="remember-div">
                   <input type="checkbox" id="remember-checkbox" />
                   <label htmlFor="remember-checkbox">
-                    Remember for 30 days
+                    Remember me
                   </label>
                 </div>
                 <a href="#" className="forgot-pass-link">
